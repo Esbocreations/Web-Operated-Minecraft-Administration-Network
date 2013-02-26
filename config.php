@@ -28,7 +28,7 @@ if ($_SERVER['HTTPS'] === 'on') {
 
 define('IP', $_SERVER['SERVER_ADDR']);
 define('DNS', $_SERVER['HTTP_HOST']);
-define('DOMAIN_ROOT', SCHEME . 'dev.kortingscode2013.nl');
+define('DOMAIN_ROOT', SCHEME . 'yourdomain.tld');
 
 if (php_sapi_name() != 'cli') {
   define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT'] . '');
