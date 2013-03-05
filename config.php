@@ -18,6 +18,7 @@ define('HE_LOG_TABLE', 'hawkeye');
 
 #Mcbans API
 define('MCBANS_API', '');
+define('GLIZER_API', '');
 
 #PATH settings
 if ($_SERVER['HTTPS'] === 'on') {
